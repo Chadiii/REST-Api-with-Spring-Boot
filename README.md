@@ -85,6 +85,8 @@ Previously our Architecture was : REST Controller <-> Student Service <-> Studen
 </br>
 Now with Spring Data Rest our Architecture is : Spring Data Rest <-> Student Repository <-> Database 
 </br>
+</br>
+
 <table>
 <tr>
     <th>HTTP Method</th>
