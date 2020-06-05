@@ -78,12 +78,12 @@ Method and description provided :
 <li>save(S entity) : Saves a given entity.</li>
 <li>saveAll(Iterable entities) : Saves all given entities.</li>
 </ul>
-
 </br>
-For now our Architecture is : REST Controller <-> Student Service <-> Student DAO <-> Database (mySQL)
+Spring Data Rest in the other hand, provide all Spring Data Jpa features and implement the endpoints automaticly, minimizing the boiler-plate REST code and no additional coding is required ! 
 </br>
-
-Spring Data Rest in the other hand, provide all Spring Data Jpa features and add the endpoints, minimizing the boiler-plate REST code and no additional coding is required ! 
+Previously our Architecture was : REST Controller <-> Student Service <-> Student DAO <-> Database (mySQL)
+</br>
+Now with Spring Data Rest our Architecture is : Spring Data Rest <-> Student Repository <-> Database 
 </br>
 <table>
 <tr>
@@ -105,7 +105,7 @@ Spring Data Rest in the other hand, provide all Spring Data Jpa features and add
 </tr>
 
 <tr>
-    <th>Get</th>
+    <th>GET</th>
     <th>/students/{studentId}</th>
     <th>Read a single student</th>
 </tr>
