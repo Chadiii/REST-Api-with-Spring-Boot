@@ -1,5 +1,5 @@
 # REST-Api-with-Spring-Boot
-This small project show 3 different approach : Using Hibernate, Standard JPA, Spring Data JPA
+This small project show 4 different approach : Using Hibernate, Standard JPA, Spring Data JPA, Spring Data Rest
 
 The Goal of this is to choose what ever Implementation and DAO techniques you want to use based on your project demands
 
